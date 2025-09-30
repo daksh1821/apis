@@ -9,13 +9,14 @@
   ],
   "license": "ISC",
   "author": "Daksh Jain <daksh2872004@gmail.com>",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon server.ts"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
+    "@types/express": "^5.0.3",
     "@types/node": "^24.6.0",
     "eslint": "^9.36.0",
     "globals": "^16.4.0",
@@ -23,5 +24,10 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.9.2",
     "typescript-eslint": "^8.45.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.3"
   }
 }
