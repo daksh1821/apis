@@ -1,4 +1,6 @@
 import express from 'express';
+import {sign} from 'jsonwebtoken';
+
 const userRouter = express.Router();
 userRouter.post("/register", (req, res) => {
     console.log("Body received:", req.body);
